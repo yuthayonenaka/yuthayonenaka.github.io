@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="dist/output.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Unofficial || John Mayer</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="fixed top-0 left-0 right-0 z-30 bg-transparent lg:flex backdrop-blur-lg"
+      >
+        <div
+          class="w-full py-2 text-white lg:py-4 bg-gradient-to-r from-slate-800/70 to-slate-500/70 backdrop-blur-sm"
+        >
+          <div class="flex items-center justify-between mx-6 text-blue-200">
+            <div
+              class="text-4xl font-bold transition-all duration-100 ease-in cursor-pointer md:text-5xl active:scale-75"
+            >
+              <a href="#home"><h1>JM</h1></a>
+            </div>
+            <div id="hamburger-menu">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-16 h-16 transition-all duration-100 ease-in cursor-pointer lg:hidden active:scale-75"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <nav id="navBar" class="hidden lg:w-full lg:justify-center lg:flex">
+        <ul
+          class="fixed z-40 flex flex-col items-center justify-center w-full text-xl font-medium text-blue-200 divide-y-2 lg:text-xl lg:gap-8 lg:flex-row divide-slate-600/10 box-dec bg-gradient-to-r from-slate-800/70 to-slate-500/70 backdrop-blur-sm top-20 lg:bg-transparent lg:to-transparent lg:from-transparent lg:backdrop-blur-none lg:top-3 lg:z-30 lg:divide-y-0 lg:w-1/2"
+        >
+          <a
+            href="#home"
+            class="box-border w-full py-4 text-center transition-all duration-100 ease-in hover:bg-gradient-to-r from-slate-800/70 to-slate-500/70 hover:scale-105 lg:w-32 lg:hover:bg-transparent lg:hover:from-transparent lg:hover:to-transparent"
+            ><li>Home</li></a
+          >
+          <a
+            href="#tour-dates"
+            class="box-border w-full py-4 text-center transition-all duration-100 ease-in hover:bg-gradient-to-r from-slate-800/70 to-slate-500/70 hover:scale-105 lg:w-32 lg:hover:bg-transparent lg:hover:from-transparent lg:hover:to-transparent"
+            ><li>Tour Dates</li></a
+          >
+          <a
+            href="#discography"
+            class="box-border w-full py-4 text-center transition-all duration-100 ease-in hover:bg-gradient-to-r from-slate-800/70 to-slate-500/70 hover:scale-105 lg:w-32 lg:hover:bg-transparent lg:hover:from-transparent lg:hover:to-transparent"
+          >
+            <li>Discography</li></a
+          >
+          <a
+            href="#news_letter"
+            class="box-border w-full py-4 text-center transition-all duration-100 ease-in hover:bg-gradient-to-r from-slate-800/70 to-slate-500/70 hover:scale-105 lg:w-32 lg:hover:bg-transparent lg:hover:from-transparent lg:hover:to-transparent"
+          >
+            <li>Newsletter</li></a
+          >
+        </ul>
+      </nav>
+    </header>
+    <!-- Hero Start -->
+    <section
+      id="home"
+      class="relative flex flex-col items-center justify-center pt-20 overflow-hidden bg-black md:pb-96 xl:h-screen"
+    >
+      <div
+        class="absolute z-20 flex justify-center gap-6 rounded-lg sm:gap-2 bottom-20 sm:fixed sm:flex-col sm:left-0 sm:bg-gradient-to-tr sm:from-slate-800/60 sm:to-slate-500/50 backdrop-blur-lg"
+      >
+        <a target="_blank" href="https://www.facebook.com/johnmayer/"
+          ><img
+            src="dist/img/icon/icons8-facebook-48 (1).png"
+            alt=""
+            width="60px"
+        /></a>
+        <a target="_blank" href="https://www.instagram.com/johnmayer/"
+          ><img src="dist/img/icon/icons8-instagram-48.png" alt="" width="60px"
+        /></a>
+        <a target="_blank" href="https://twitter.com/johnmayer/"
+          ><img
+            src="dist/img/icon/icons8-twitter-squared-48.png"
+            alt=""
+            width="60px"
+        /></a>
+        <a target="_blank" href="https://www.youtube.com/johnmayer/"
+          ><img
+            src="dist/img/icon/icons8-youtube-48.png"
+            class=""
+            alt=""
+            width="60px"
+        /></a>
+      </div>
+      <div class="mx-auto">
+        <img
+          src="/dist/img/DHAFBwF3_400x400.jpg"
+          alt=""
+          class="z-10 w-96 md:absolute md:bottom-0 md:-left-10 md:w-2/5"
+        />
+        <img
+          src="/dist/img/john-mayer-tour@2000x1500.jpg"
+          alt=""
+          class="absolute bottom-0 z-10 hidden w-1/2 -right-20 md:block"
+        />
+      </div>
+
+      <div
+        class="absolute z-10 bg-white mx-auto text-8xl font-bold text-transparent bg-gradient-to-r from-blue-200 to-blue-300 bg-clip-text top-[23rem] left-1/2 -translate-x-1/2 text-center md:text-9xl md:top-24 lg:top-40 lg:min-w-full"
+      >
+        <h1>John Mayer</h1>
+      </div>
+      <div
+        class="z-10 px-16 pt-40 pb-48 text-xl text-center bg-transparent md:pt-52 lg:pt-32 text-slate-400 md:text-2xl md:max-w-2xl md:relative md:top-36 lg:top-40 lg:text-3xl"
+      >
+        <blockquote>
+          "The biggest mistake i made and what cost me a lot of enjoyment in my
+          life, was assuming that everybody cared,They don't."
+        </blockquote>
+      </div>
+    </section>
+    <!-- Hero End -->
+    <!-- Tour Dates Start -->
+    <section
+      id="tour-dates"
+      class="relative px-8 pt-20 overflow-hidden pb-36 bg-gradient-to-br from-blue-200 to-blue-100"
+    >
+      <div class="absolute top-0 overflow-hidden opacity-50 -right-14">
+        <img
+          src="dist/img/3ddeba7126336e2bffa5d3f88e320f09-removebg-preview.png"
+          alt=""
+          class="w-[600px]"
+        />
+      </div>
+      <div
+        class="relative z-10 mt-12 text-6xl font-bold text-center text-slate-900 sm:text-7xl lg:text-8xl xl:text-9xl"
+      >
+        <h2>Tour Dates</h2>
+      </div>
+      <div
+        class="relative z-10 grid gap-8 mt-36 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3"
+      >
+        <div
+          class="flex flex-col items-center justify-center py-12 bg-blue-100 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5"
+        >
+          <div class="flex flex-col items-center justify-center">
+            <p class="text-base font-semibold text-center text-slate-950">
+              SEP 27, 2023
+            </p>
+            <h4 class="text-lg font-semibold text-center text-slate-950">
+              SEMINOLE HARD ROCK HOTEL & CASINO - HOLLYWOOD
+            </h4>
+            <p class="text-base font-semibold text-center text-slate-800">
+              HOLLYWOOD, FL
+            </p>
+            <p class="font-bold text-center text-md text-slate-600">
+              SOLO ACOUSTIC TOUR.
+            </p>
+          </div>
+          <div class="flex flex-col items-center justify-center mt-4">
+            <div
+              class="px-16 py-4 border-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 border-slate-50 text-slate-100 hover:bg-slate-900/90"
+            >
+              VIP
+            </div>
+            <div
+              class="px-16 py-4 mt-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 text-slate-100 hover:bg-slate-900/90"
+            >
+              TICKETS
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center py-12 bg-blue-100 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5"
+        >
+          <div class="flex flex-col items-center justify-center">
+            <p class="text-base font-semibold text-center text-slate-950">
+              SEP 28, 2023
+            </p>
+            <h4 class="text-lg font-semibold text-center text-slate-950">
+              SEMINOLE HARD ROCK HOTEL & CASINO - HOLLYWOOD
+            </h4>
+            <p class="text-base font-semibold text-center text-slate-800">
+              FORT LAUDERDALE, FL
+            </p>
+            <p class="font-bold text-center text-md text-slate-600">
+              SOLO ACOUSTIC TOUR.
+            </p>
+          </div>
+          <div class="flex flex-col items-center justify-center mt-4">
+            <div
+              class="px-16 py-4 border-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 border-slate-50 text-slate-100 hover:bg-slate-900/90"
+            >
+              VIP
+            </div>
+            <div
+              class="px-16 py-4 mt-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 text-slate-100 hover:bg-slate-900/90"
+            >
+              TICKETS
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center py-12 bg-blue-100 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5"
+        >
+          <div class="flex flex-col items-center justify-center">
+            <p class="text-base font-semibold text-center text-slate-950">
+              SEP 30, 2023
+            </p>
+            <h4 class="text-lg font-semibold text-center text-slate-950">
+              OCEANS CALLING FESTIVAL
+            </h4>
+            <p class="text-base font-semibold text-center text-slate-800">
+              OCEAN CITY, MD
+            </p>
+            <p class="font-bold text-center text-md text-slate-600">
+              SOLO ACOUSTIC TOUR.
+            </p>
+            <div
+              class="px-16 py-4 mt-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 text-slate-100 hover:bg-slate-900/90"
+            >
+              TICKETS
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center py-12 bg-blue-100 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5"
+        >
+          <div class="flex flex-col items-center justify-center">
+            <p class="text-base font-semibold text-center text-slate-950">
+              SEP 30, 2023
+            </p>
+            <h4 class="text-lg font-semibold text-center text-slate-950">
+              OCEANS CALLING FESTIVAL
+            </h4>
+            <p class="text-base font-semibold text-center text-slate-800">
+              OCEAN CITY, MD
+            </p>
+
+            <div
+              class="px-16 py-4 mt-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 text-slate-100 hover:bg-slate-900/90"
+            >
+              TICKETS
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center py-12 bg-blue-100 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5"
+        >
+          <div class="flex flex-col items-center mx-auto -center">
+            <p class="text-base font-semibold text-center text-slate-950">
+              OCT 1, 2023
+            </p>
+            <h4 class="text-lg font-semibold text-center text-slate-950">
+              SOUND ON SOUND
+            </h4>
+            <p class="text-base font-semibold text-center text-slate-800">
+              BRIDGEPORT, CT
+            </p>
+
+            <div
+              class="px-16 py-4 mt-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 text-slate-100 hover:bg-slate-900/90"
+            >
+              TICKETS
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center py-12 bg-blue-100 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5"
+        >
+          <div class="flex flex-col items-center justify-center">
+            <p class="text-base font-semibold text-center text-slate-950">
+              OCT 3, 2023
+            </p>
+            <h4 class="text-lg font-semibold text-center text-slate-950">
+              MADISON SQUARE GARDEN
+            </h4>
+            <p class="text-base font-semibold text-center text-slate-800">
+              NEW YORK, NY
+            </p>
+            <p class="font-bold text-center text-md text-slate-600">
+              SOLO ACOUSTIC FALL TOUR. WITH JP SAXE
+            </p>
+          </div>
+          <div class="flex flex-col items-center justify-center mt-4">
+            <div
+              class="px-16 py-4 border-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 border-slate-50 text-slate-100 hover:bg-slate-900/90"
+            >
+              VIP
+            </div>
+            <div
+              class="px-16 py-4 mt-4 rounded-lg shadow-lg cursor-pointer shadow-slate-950/5 bg-slate-900 text-slate-100 hover:bg-slate-900/90"
+            >
+              TICKETS
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Tour Dates End -->
+
+    <!-- Discography Start -->
+
+    <section
+      id="discography"
+      class="relative px-8 pt-32 overflow-hidden pb-80 bg-gradient-to-tr from-blue-200 to-blue-100 lg:pt-48"
+    >
+      <div class="absolute bottom-0 sm:-bottom-14 sm:right-2">
+        <img
+          src="/dist/img/background/JOHN_MAYER_SHOT_04_03410-removebg-preview (1).png"
+          alt=""
+        />
+      </div>
+      <div class="absolute -top-12 sm:-translate-x-1/2 sm:left-1/2 opacity-40">
+        <img
+          src="dist/img/background/24b5442cfed774e90ce588b13f5b2f81.600x600x1-removebg-preview.png"
+          alt=""
+          class="w-[1000px]"
+        />
+      </div>
+
+      <div
+        class="relative text-5xl font-bold text-center bottom-20 text-slate-900 sm:text-7xl lg:text-8xl"
+      >
+        <h2>Discography</h2>
+      </div>
+
+      <div
+        class="relative mt-24 overflow-auto scrollbar-hide snap-x sm:mt-32 lg:overflow-hidden lg:mt-44"
+      >
+        <div
+          class="flex w-[900vw] gap-12 sm:gap-20 sm:w-[700vw] md:gap-14 md:w-[500vw] lg:w-full lg:flex-wrap justify-center"
+        >
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg lg:relative aspect-square"
+            >
+              <img
+                src="/dist/img/discography/room_for_squares.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Room <br />
+                  for <br />
+                  Squares
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Room for Squares <br />
+              2001
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/any_give_thursday.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Any <br />
+                  Given <br />
+                  Thursday
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Any Given Thursday <br />
+              2003
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/heavier_things.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Heavier <br />
+                  Things
+                </div>
+              </div>
+            </div>
+
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Heavier Things <br />
+              2003
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden border rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/as_is.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px] h-full"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  AS/IS
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              As/Is <br />
+              2004
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/TRy!.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  TRY!
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Try! John Mayer Trio Live in Concert <br />2005
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/Continuum_by_John_Mayer_(2006).jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Continuum
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Continuum <br />
+              2006
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/John_Mayer_-_Where_the_Light_Is.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Where <br />
+                  The <br />
+                  Light is
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Where the Light Is <br />2008
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/download.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Battle <br />
+                  Studies
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Battle Studies <br />2009
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/John_Mayer_Born_and_Raised_Cover.jpeg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Born <br />
+                  and <br />
+                  Raised
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Born and Raised <br />2012
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/Paradise_Valley_cover,_by_John_Mayer.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Paradise <br />
+                  Valley
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Paradise Valley <br />
+              2013
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/JohnMayerTSfE.jpg"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  The <br />
+                  Search of <br />
+                  Everything
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              The Search for Everything <br />2017
+            </figcaption>
+          </figure>
+          <figure class="snap-center">
+            <div
+              class="overflow-hidden rounded-lg shadow-lg aspect-square lg:relative"
+            >
+              <img
+                src="/dist/img/discography/John_Mayer_-_Sob_Rock.png"
+                alt=""
+                class="w-[600px] sm:w-[400px]"
+              />
+              <div
+                class="absolute top-0 flex-col items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+              >
+                <div
+                  class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 border-slate-50"
+                >
+                  Sob <br />
+                  Rock
+                </div>
+              </div>
+            </div>
+            <figcaption
+              class="pt-2 text-lg font-bold text-center text-slate-700 sm:pt-4 sm:text-xl sm:font-semibold lg:invisible"
+            >
+              Sob Rock <br />
+              2021
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+    <!-- Discography END -->
+
+    <section
+      id="news_letter"
+      class="relative px-8 pt-32 pb-40 overflow-hidden bg-gray-800 border-t-8"
+    >
+      <div class="absolute opacity-50 -bottom-10 -left-20 lg:-bottom-10">
+        <img
+          src="/dist/img/hero-new-side-removebg-preview.png"
+          alt=""
+          class="w-[600px] xl:w-[700px] drop-shadow-2xl"
+        />
+      </div>
+      <div class="absolute bottom-0 hidden opacity-50 xl:block -right-40 s">
+        <img
+          src="/dist/img/im-343107-removebg-preview.png"
+          alt=""
+          class="w-[700px] xl:w-[800px] drop-shadow-2xl"
+        />
+      </div>
+      <div
+        class="container relative z-10 flex flex-col items-center justify-center gap-10 mx-auto"
+      >
+        <div
+          class="text-5xl font-medium lg:text-7xl text-slate-200 md:text-6xl"
+        >
+          <h1>Out Now!</h1>
+        </div>
+        <div
+          class="relative mt-8 overflow-hidden transition-all duration-300 ease-in rounded-md shadow-lg shadow-slate-950/20 lg:flex lg:hover:-translate-y-1 lg:hover:translate-x-2 lg:hover:scale-105"
+        >
+          <img
+            src="/dist/img/ab67616d0000b273779063301154e835a91a35e0.jpg"
+            alt=""
+            class="md:w-[500px] w-[300px]"
+          />
+          <div
+            class="absolute top-0 items-center justify-center hidden w-full h-full transition duration-300 ease-in lg:flex hover:bg-gradient-to-r from-slate-300/50 to-slate-500/50 hover:backdrop-blur-md group"
+          >
+            <div
+              class="p-10 text-5xl font-bold text-center text-transparent transition duration-300 ease-in-out rounded-lg group-hover:border-2 group-hover:text-slate-50 group-hover:border-slate-50"
+            >
+              Sob <br />
+              Rock
+            </div>
+          </div>
+        </div>
+        <div class="grid gap-8 mt-4 sm:grid-cols-2">
+          <a
+            target="_blank"
+            href="https://open.spotify.com/album/2JmfwvRDitJlTUoLCkp61z'"
+            class="box-border px-10 py-4 mx-auto overflow-hidden transition-all duration-300 ease-in rounded-lg shadow-lg cursor-pointer shadow-slate-950/20 bg-slate-500 hover:bg-slate-600 hover:-translate-y-1 hover:scale-105"
+          >
+            <img
+              src="/dist/img/icon/Spotify_Logo_CMYK_Black.png"
+              alt=""
+              class="h-8 w-28"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://music.apple.com/us/album/1568819304?ls=1&app=music&at=1001lLuS&lId=23091696&cId=none&sr=2&src=Linkfire&itscg=30440&itsct=catchall_p2&ct=LFV_e89b77a0e4b659eee02467e41e933455"
+            class="box-border px-12 py-5 mx-auto overflow-hidden transition-all duration-300 ease-in rounded-lg shadow-lg cursor-pointer shadow-slate-950/20 bg-slate-500 hover:bg-slate-600 hover:-translate-y-1 hover:scale-105"
+          >
+            <img
+              src="/dist/img/icon/512px-Apple_Music_logo.png"
+              alt=""
+              class="w-24 h-6"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://music.apple.com/us/album/1568819304?ls=1&app=music&at=1001lLuS&lId=23091696&cId=none&sr=2&src=Linkfire&itscg=30440&itsct=catchall_p2&ct=LFV_e89b77a0e4b659eee02467e41e933455"
+            class="box-border px-12 py-5 mx-auto overflow-hidden transition-all duration-300 ease-in rounded-lg shadow-lg cursor-pointer shadow-slate-950/20 bg-slate-500 hover:bg-slate-600 hover:-translate-y-1 hover:scale-105"
+          >
+            <img
+              src="/dist/img/icon/585bbb3acb11b227491c32b0.png"
+              alt=""
+              class="w-24 h-7"
+            />
+          </a>
+          <a
+            target="_blank"
+            href="https://music.amazon.com/albums/B095L86QZ8?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&tag=columbia_records-20&ie=UTF8&linkCode=as2&ascsubtag=e89b77a0e4b659eee02467e41e933455"
+            class="box-border px-12 mx-auto overflow-hidden transition-all duration-300 ease-in rounded-lg shadow-lg cursor-pointer shadow-slate-950/20 bg-slate-500 hover:bg-slate-600 hover:-translate-y-1 hover:scale-105"
+          >
+            <img src="/dist/img/icon/Amazon Music.png " alt=""
+            class="w-[100px]"" />
+          </a>
+        </div>
+        <div
+          class="mt-20 text-5xl font-semibold text-center text-blue-100 lg:mt-40 lg:text-6xl"
+        >
+          <h4>NEWSLETTER SIGN UP</h4>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center w-full py-4 lg:items-end lg:flex-row"
+        >
+          <form class="flex justify-center w-full lg:w-2/4">
+            <label for="email"></label
+            ><input
+              id="email"
+              type="email"
+              placeholder="john_doe@yahoo.com"
+              class="w-11/12 py-4 text-base font-semibold text-center text-blue-100 bg-transparent border-b-2 lg: lg:text-xl focus:outline-none placeholder-slate-400/20"
+            />
+          </form>
+          <div
+            class="w-10/12 py-4 mt-8 text-lg font-semibold text-center transition-all duration-100 ease-in border-4 border-blue-100 rounded-lg shadow-lg cursor-pointer text-slate-950 shadow-slate-950/20 lg:w-1/5 bg-slate-500 hover:bg-slate-600 hover:translate-y-1 hover:scale-x-95"
+          >
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+      <footer
+        class="absolute w-full text-center text-blue-100 -translate-x-1/2 left-1/2 bottom-5"
+      >
+        <p>© 2023 John Mayer. All Rights Reserved. | Built by yuthayonenaka</p>
+      </footer>
+    </section>
+    <script src="dist/main.js"></script>
+  </body>
+</html>
